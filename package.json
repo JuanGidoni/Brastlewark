@@ -1,6 +1,11 @@
 {
-  "name": "reactdefaults",
+  "name": "brastlewarkapp",
   "version": "0.1.0",
+  "author": {
+    "name": "Juan Ignacio Gidoni",
+    "email": "juan.gidoni@gmail.com",
+    "url": "https://github.com/JuanGidoni"
+  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -12,11 +17,13 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "server": "cd api && node index.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "proxy": "http://localhost:5000",
   "eslintConfig": {
     "extends": [
       "react-app",
