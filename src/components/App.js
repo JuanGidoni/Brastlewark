@@ -4,12 +4,10 @@ import {
   Route,
 } from "react-router-dom";
 import Navbar from './Organisms/Navbar';
-import './App.css';
 
 function App() {
   return (
     <Router>
-
       <div className="App">
         <Navbar />
         <Switch>
