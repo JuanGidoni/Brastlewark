@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
 
-const NavLink = ({ text, to, className }) => {
+const NavLink = ({ to, className, children }) => {
  return (
   <Link to={to} className={`nav-link ${className ? className : ''}`}>
-   {text}
+   {children}
   </Link>
  )
 }

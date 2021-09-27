@@ -2,77 +2,177 @@
 
 exports[`<App /> renders correctly and match snapshot 1`] = `
 <div
-  className="App"
+  className="container-fluid p-0 m-0"
 >
-  <nav
-    className="navbar navbar-expand-lg navbar-dark bg-dark"
+  <div
+    className="App"
   >
-    <a
-      className="nav-link navbar-brand"
-      href="/"
-      onClick={[Function]}
+    <nav
+      className="navbar navbar-expand-lg navbar-dark bg-dark"
     >
-      Brastlewark
-    </a>
-    <button
-      aria-controls="responsive-navbar-nav"
-      aria-label="Toggle navigation"
-      className="navbar-toggler collapsed"
-      onClick={[Function]}
-      type="button"
-    >
-      <span
-        className="navbar-toggler-icon"
-      />
-    </button>
-    <div
-      aria-expanded={null}
-      className="navbar-collapse collapse"
-      id="responsive-navbar-nav"
-    >
-      <ul
-        className="navbar-nav ml-auto"
+      <a
+        className="nav-link navbar-brand"
+        href="/"
+        onClick={[Function]}
       >
-        <li
-          className="nav-item"
+        Brastlewark
+      </a>
+      <button
+        aria-controls="responsive-navbar-nav"
+        aria-label="Toggle navigation"
+        className="navbar-toggler collapsed"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        aria-expanded={null}
+        className="navbar-collapse collapse"
+        id="responsive-navbar-nav"
+      >
+        <ul
+          className="navbar-nav ml-auto"
+        >
+          <li
+            className="nav-item"
+          >
+            <a
+              className="nav-link "
+              href="/age"
+              onClick={[Function]}
+            >
+              Age
+            </a>
+          </li>
+          <li
+            className="nav-item"
+          >
+            <a
+              className="nav-link "
+              href="/weight"
+              onClick={[Function]}
+            >
+              Weight
+            </a>
+          </li>
+          <li
+            className="nav-item"
+          >
+            <a
+              className="nav-link "
+              href="/height"
+              onClick={[Function]}
+            >
+              Height
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main
+      className="d-flex flex-col align-items-center justify-content-center py-3"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-md-6"
         >
           <a
             className="nav-link "
-            href="/age"
+            href="/welcome"
             onClick={[Function]}
           >
-            Age
+            <div
+              className="card"
+            >
+              <h1
+                className="h1 text-primary text-center"
+              >
+                Welcome
+              </h1>
+              <p>
+                Welcome to Brastlewark
+              </p>
+            </div>
           </a>
-        </li>
-        <li
-          className="nav-item"
+        </div>
+        <div
+          className="col-md-6"
         >
           <a
             className="nav-link "
-            href="/weight"
+            href="/welcome"
             onClick={[Function]}
           >
-            Weight
+            <div
+              className="card"
+            >
+              <h1
+                className="h1 text-primary text-center"
+              >
+                Welcome
+              </h1>
+              <p>
+                Welcome to Brastlewark
+              </p>
+            </div>
           </a>
-        </li>
-        <li
-          className="nav-item"
+        </div>
+        <div
+          className="col-md-6"
         >
           <a
             className="nav-link "
-            href="/height"
+            href="/welcome"
             onClick={[Function]}
           >
-            Height
+            <div
+              className="card"
+            >
+              <h1
+                className="h1 text-primary text-center"
+              >
+                Welcome
+              </h1>
+              <p>
+                Welcome to Brastlewark
+              </p>
+            </div>
           </a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <footer
-    className="w-100 h-auto text-center py-1 text-primary border-top border-primary mt-1"
-  >
-    @copyright - 2021
-  </footer>
+        </div>
+        <div
+          className="col-md-6"
+        >
+          <a
+            className="nav-link "
+            href="/welcome"
+            onClick={[Function]}
+          >
+            <div
+              className="card"
+            >
+              <h1
+                className="h1 text-primary text-center"
+              >
+                Welcome
+              </h1>
+              <p>
+                Welcome to Brastlewark
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </main>
+    <footer
+      className="w-100 h-auto text-center py-1 text-primary border-top border-primary mt-1"
+    >
+      @copyright - 2021
+    </footer>
+  </div>
 </div>
 `;

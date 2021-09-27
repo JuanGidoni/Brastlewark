@@ -5,7 +5,5 @@ exports[`<NavLink /> renders correctly and match snapshot 1`] = `
   className="nav-link example"
   href="/"
   onClick={[Function]}
->
-  Example
-</a>
+/>
 `;
