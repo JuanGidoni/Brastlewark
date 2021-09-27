@@ -24,7 +24,7 @@ const dataFilter = async (filter, data, state) => {
   }
  } catch (error) {
   return error;
- }
-}
+ };
+};
 
 module.exports = dataFilter;
