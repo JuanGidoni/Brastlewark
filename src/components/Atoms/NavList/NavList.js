@@ -3,7 +3,7 @@ import NavLink from '../NavLink';
 const NavList = ({ text, to }) => {
  return (
   <li className="nav-item">
-   <NavLink text={text} to={to} />
+   <NavLink to={to}>{text}</NavLink>
   </li>
  )
 }

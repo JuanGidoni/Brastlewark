@@ -7,7 +7,7 @@ const Navbar = () => {
 
  return (
   <Menu collapseOnSelect expand="lg" bg="dark" variant="dark">
-   <NavLink text="Brastlewark" to="/" className="navbar-brand" />
+   <NavLink to="/" className="navbar-brand">Brastlewark</NavLink>
    <Menu.Toggle aria-controls="responsive-navbar-nav" />
    <Menu.Collapse id="responsive-navbar-nav">
     <Nav />
