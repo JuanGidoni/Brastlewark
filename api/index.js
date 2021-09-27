@@ -1,12 +1,13 @@
-const env = require('dotenv')
-const express = require('express')
-const cors = require('cors')
+const env = require('dotenv');
+const express = require('express');
+const cors = require('cors');
 const fetch = require('node-fetch');
-const search = require('./routes/search.js')
-const filter = require('./routes/filter.js')
+const search = require('./routes/search.js');
+const filter = require('./routes/filter.js');
+const unique = require('./routes/unique.js');
 
 env.config();
-const app = express()
+const app = express();
 const port = process.env.PORT || 5000;
 
 app.use(cors());
@@ -33,6 +34,7 @@ app.get('/v1', async (req, res) => {
 });
 app.use("/v1/search/", search);
 app.use("/v1/filter/", filter);
+app.use("/v1/unique/", unique);
 app.listen(port, () => {
  console.log(`Server running on port: ${port}`);
 });

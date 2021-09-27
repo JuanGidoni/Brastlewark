@@ -53,14 +53,13 @@ export function DataProvider({ children, ...props }) {
  };
 
  useEffect(() => {
-  if (loading) {
-   getData();
-  }
- }, [loading])
+  getData();
+ }, [])
 
  const value = {
   data,
   error,
+  setError,
   loading,
   setLoading,
   getFilteredData,

@@ -8,7 +8,7 @@ const dataSearch = async (state, data, value) => {
   }
  } catch (error) {
   return error;
- }
-}
+ };
+};
 
 module.exports = dataSearch;

@@ -4,7 +4,7 @@ import {
   Route,
 } from "react-router-dom";
 import { Footer } from "./Molecules";
-import { Navbar } from './Organisms';
+import { Item, Navbar } from './Organisms';
 import { Layout } from "./Templates";
 import { Main } from "./Pages";
 import { DataProvider } from "./Contexts/Data";
@@ -24,7 +24,7 @@ const App = () => {
               <Route path="/height" exact>
               </Route>
               <Route path="/item/:id" exact>
-                <>Found</>
+                <Item />
               </Route>
               <Route path="/" exact>
                 <Main />
