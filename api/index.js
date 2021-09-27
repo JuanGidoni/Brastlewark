@@ -9,8 +9,14 @@ env.config();
 const app = express()
 const port = process.env.PORT || 5000;
 
-app.use(cors())
-app.use(express.json())
+app.use(cors());
+app.use(express.json());
+
+app.use(function (err, req, res, next) {
+ console.error(err.stack);
+ res.status(500).send('Something broke!');
+});
+
 app.get('/v1', async (req, res) => {
  try {
   const response = await fetch(process.env.URL);
