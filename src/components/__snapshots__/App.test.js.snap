@@ -69,5 +69,10 @@ exports[`<App /> renders correctly and match snapshot 1`] = `
       </ul>
     </div>
   </nav>
+  <footer
+    className="w-100 h-auto text-center py-1 text-primary border-top border-primary mt-1"
+  >
+    @copyright - 2021
+  </footer>
 </div>
 `;
