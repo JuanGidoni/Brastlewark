@@ -3,6 +3,7 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
+import { Footer } from "./Molecules/Footer";
 import Navbar from './Organisms/Navbar';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/">
           </Route>
         </Switch>
+        <Footer className="w-100 h-auto text-center py-1 text-primary border-top border-primary mt-1">@copyright - 2021</Footer>
       </div>
     </Router>
   );
