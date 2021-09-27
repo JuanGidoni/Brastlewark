@@ -3,8 +3,8 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import { Footer } from "./Molecules/Footer";
-import Navbar from './Organisms/Navbar';
+import { Footer } from "./Molecules/";
+import { Navbar } from './Organisms/';
 
 function App() {
   return (
