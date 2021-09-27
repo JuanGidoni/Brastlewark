@@ -25,7 +25,7 @@ const Age = () => {
   };
   useEffect(() => {
     getFilteredData(id, type);
-  }, [id]);
+  }, [id, type]);
 
   return (
     <main className="d-flex flex-col align-items-center justify-content-center py-3">
