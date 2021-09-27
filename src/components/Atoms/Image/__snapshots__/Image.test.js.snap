@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Image /> renders correctly and match snapshot 1`] = `
+<img
+  alt="Example"
+  className="w-100 h-auto"
+  src="https://example.com/example.png"
+  style={
+    Object {
+      "objectFit": "cover",
+    }
+  }
+/>
+`;

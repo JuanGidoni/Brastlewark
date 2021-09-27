@@ -41,7 +41,7 @@ exports[`<App /> renders correctly and match snapshot 1`] = `
           >
             <a
               className="nav-link "
-              href="/age"
+              href="/filter/age/a"
               onClick={[Function]}
             >
               Age
@@ -52,7 +52,7 @@ exports[`<App /> renders correctly and match snapshot 1`] = `
           >
             <a
               className="nav-link "
-              href="/weight"
+              href="/filter/weight/a"
               onClick={[Function]}
             >
               Weight
@@ -63,7 +63,7 @@ exports[`<App /> renders correctly and match snapshot 1`] = `
           >
             <a
               className="nav-link "
-              href="/height"
+              href="/filter/height/a"
               onClick={[Function]}
             >
               Height
@@ -72,102 +72,20 @@ exports[`<App /> renders correctly and match snapshot 1`] = `
         </ul>
       </div>
     </nav>
-    <main
-      className="d-flex flex-col align-items-center justify-content-center py-3"
+    <div
+      className="spinner"
     >
       <div
-        className="row"
+        className="spinner-grow"
+        role="status"
       >
-        <div
-          className="col-md-6"
+        <span
+          className="sr-only "
         >
-          <a
-            className="nav-link "
-            href="/welcome"
-            onClick={[Function]}
-          >
-            <div
-              className="card"
-            >
-              <h1
-                className="h1 text-primary text-center"
-              >
-                Welcome
-              </h1>
-              <p>
-                Welcome to Brastlewark
-              </p>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-6"
-        >
-          <a
-            className="nav-link "
-            href="/welcome"
-            onClick={[Function]}
-          >
-            <div
-              className="card"
-            >
-              <h1
-                className="h1 text-primary text-center"
-              >
-                Welcome
-              </h1>
-              <p>
-                Welcome to Brastlewark
-              </p>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-6"
-        >
-          <a
-            className="nav-link "
-            href="/welcome"
-            onClick={[Function]}
-          >
-            <div
-              className="card"
-            >
-              <h1
-                className="h1 text-primary text-center"
-              >
-                Welcome
-              </h1>
-              <p>
-                Welcome to Brastlewark
-              </p>
-            </div>
-          </a>
-        </div>
-        <div
-          className="col-md-6"
-        >
-          <a
-            className="nav-link "
-            href="/welcome"
-            onClick={[Function]}
-          >
-            <div
-              className="card"
-            >
-              <h1
-                className="h1 text-primary text-center"
-              >
-                Welcome
-              </h1>
-              <p>
-                Welcome to Brastlewark
-              </p>
-            </div>
-          </a>
-        </div>
+          Loading...
+        </span>
       </div>
-    </main>
+    </div>
     <footer
       className="w-100 h-auto text-center py-1 text-primary border-top border-primary mt-1"
     >

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Filter /> renders correctly and match snapshot 1`] = `
+<main
+  className="d-flex flex-col align-items-center justify-content-center py-3"
+>
+  <div
+    className="spinner"
+  >
+    <div
+      className="spinner-grow"
+      role="status"
+    >
+      <span
+        className="sr-only "
+      >
+        Loading...
+      </span>
+    </div>
+  </div>
+</main>
+`;

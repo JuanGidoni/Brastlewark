@@ -9,7 +9,7 @@ exports[`<Nav /> renders correctly and match snapshot 1`] = `
   >
     <a
       className="nav-link "
-      href="/age"
+      href="/filter/age/a"
       onClick={[Function]}
     >
       Age
@@ -20,7 +20,7 @@ exports[`<Nav /> renders correctly and match snapshot 1`] = `
   >
     <a
       className="nav-link "
-      href="/weight"
+      href="/filter/weight/a"
       onClick={[Function]}
     >
       Weight
@@ -31,7 +31,7 @@ exports[`<Nav /> renders correctly and match snapshot 1`] = `
   >
     <a
       className="nav-link "
-      href="/height"
+      href="/filter/height/a"
       onClick={[Function]}
     >
       Height

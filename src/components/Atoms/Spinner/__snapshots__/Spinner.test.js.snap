@@ -2,13 +2,17 @@
 
 exports[`<Spinner /> renders correctly and match snapshot 1`] = `
 <div
-  className="spinner-border"
-  role="status"
+  className="spinner"
 >
-  <span
-    className="sr-only"
+  <div
+    className="spinner-grow"
+    role="status"
   >
-    Loading...
-  </span>
+    <span
+      className="sr-only "
+    >
+      Loading...
+    </span>
+  </div>
 </div>
 `;
