@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`<Nav /> renders correctly and match snapshot 1`] = `
 <ul
   className="navbar-nav ml-auto"
 >

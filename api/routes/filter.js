@@ -2,7 +2,7 @@ const express = require('express');
 const fetch = require('node-fetch');
 const router = express.Router();
 const env = require('dotenv');
-const dataFilter = require('../helpers/dataFilter');
+const dataFilter = require('../utils/dataFilter');
 env.config();
 
 
@@ -23,7 +23,7 @@ router.get('/:filter/:state', async (req, res) => {
    res.status(404).send('Error, response empty or not found');
   }
  } catch (error) {
-  res.status(404).send(error);
+  res.status(500).send(error);
  }
 });
 

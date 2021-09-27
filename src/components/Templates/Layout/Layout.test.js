@@ -1,12 +1,14 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import { BrowserRouter as Router } from 'react-router-dom';
-import Nav from './Nav';
+import Layout from './Layout';
 
-describe('<Nav />', () => {
+describe('<Layout />', () => {
  it('renders correctly and match snapshot', () => {
   const tree = renderer
-   .create(<Router><Nav /></Router>)
+   .create(
+    <Layout className="container-fluid">
+     <p>Example</p>
+    </Layout>)
    .toJSON();
   expect(tree).toMatchSnapshot();
  });

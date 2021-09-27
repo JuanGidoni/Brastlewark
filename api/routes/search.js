@@ -1,6 +1,6 @@
 const express = require('express');
 const fetch = require('node-fetch');
-const dataSearch = require('../helpers/dataSearch');
+const dataSearch = require('../utils/dataSearch');
 const router = express.Router();
 const env = require('dotenv');
 env.config();
@@ -21,7 +21,7 @@ router.get('/:search/:state', async (req, res) => {
    res.status(404).send('Error, invalid search or not found');
   }
  } catch (error) {
-  res.status(404).send(error);
+  res.status(500).send(error);
  }
 });
 

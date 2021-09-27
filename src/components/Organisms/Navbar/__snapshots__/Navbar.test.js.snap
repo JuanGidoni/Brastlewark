@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`<Navbar /> renders correctly and match snapshot 1`] = `
 <nav
   className="navbar navbar-expand-lg navbar-dark bg-dark"
 >
