@@ -28,7 +28,9 @@ const App = () => {
               <>Not found</>
             </Route>
           </Switch>
-          <Footer className="w-100 h-auto text-center py-1 text-primary border-top border-primary mt-1">@copyright - 2021</Footer>
+          <Footer className="w-100 h-auto text-center py-1 text-primary border-top border-primary mt-1">
+            @ Copyright - Brastlewark 2021 / Juan Ignacio Gidoni React Challenge
+          </Footer>
         </div>
       </Layout>
     </Router>

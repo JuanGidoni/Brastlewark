@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import { Heading, Paragraph, Image, Spinner } from '../../Atoms';
+import { Col } from 'react-bootstrap';
 
 const Item = () => {
   const [loading, setLoading] = useState(true);
@@ -30,29 +31,21 @@ const Item = () => {
     {error && <p className="text-danger">error</p>}
     {itemDetails && itemDetails.length > 0 ? itemDetails.map(
       (v, i) =>
-        <div key={i} className="w-100 h-100 d-flex flex-column align-items-center justify-content-center">
+        <div key={i} className="w-100 d-flex flex-column align-items-center justify-content-center">
           <div>
             <Heading type="h2" text={v.name} />
           </div>
-          <div>
+          <Col xs="12" md="4">
             <Image src={v.thumbnail} alt={v.name} />
-          </div>
-          <div className="d-flex align-items-center justify-content-between w-50">
+          </Col>
+          <div className="d-flex align-items-center justify-content-center text-center w-50 mt-2">
             <div>
               <Heading type="h3" text="Age" />
               <Paragraph text={v.age} />
-            </div>
-            <div>
               <Heading type="h3" text="Hair Color" />
               <Paragraph text={v.hair_color} />
-            </div>
-          </div>
-          <div className="d-flex align-items-center justify-content-between w-50">
-            <div>
               <Heading type="h3" text="Height" />
               <Paragraph text={v.height} />
-            </div>
-            <div>
               <Heading type="h3" text="Weight" />
               <Paragraph text={v.weight} />
             </div>

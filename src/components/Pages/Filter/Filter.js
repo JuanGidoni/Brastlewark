@@ -34,7 +34,7 @@ const Age = () => {
         <Row className="p-0 m-0">
           {data && data.length > 0 ? data.map(
             (v, i) =>
-              <Col key={i} md="4" className="p-0 m-0">
+              <Col key={i} xs='12' md="6" lg="4" className="p-0 m-0">
                 <NavLink to={`/item/${v.id}`} className="m-1">
                   <Card className="card">
                     <Heading type="h2" text={v.name} className="text-primary text-center p-0 m-0" />
