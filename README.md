@@ -11,6 +11,10 @@ Execute `yarn start` to run the frontend development server.
 
 Execute `yarn server` to run the backend server development.
 
+## Testing
+
+For testing use `yarn test` or `npm run test`
+
 ## ENV File
 
 Create 2 variables with:
