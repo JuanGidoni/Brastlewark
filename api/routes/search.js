@@ -4,6 +4,7 @@ const dataSearch = require('../utils/dataSearch');
 const router = express.Router();
 const env = require('dotenv');
 env.config();
+
 router.get('/:search/:state', async (req, res) => {
  try {
   const search = req.params.search;

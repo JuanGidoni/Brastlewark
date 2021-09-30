@@ -5,7 +5,6 @@ const env = require('dotenv');
 const dataFilter = require('../utils/dataFilter');
 env.config();
 
-
 router.get('/:filter/:state', async (req, res) => {
  try {
   const filter = req.params.filter;

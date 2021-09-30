@@ -12,7 +12,6 @@ router.get('/:id', async (req, res) => {
   const data = await response.json();
   if (data.Brastlewark && data.Brastlewark.length > 0) {
    const dataFiltered = await dataUnique(id, data.Brastlewark);
-   console.log(dataFiltered);
    if (dataFiltered) {
     res.status(200).send(dataFiltered);
    } else {
