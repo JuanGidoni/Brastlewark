@@ -7,9 +7,9 @@ Just execute `yarm` or `npm i` to install all the dependencies.
 
 ## Run localhost
 
-Execute `yarn start` to run the frontend development server.
+Execute `yarn start` or `npm start` to run the frontend development server.
 
-Execute `yarn server` to run the backend server development.
+Execute `yarn server` or `npm server` to run the backend server development.
 
 ## Testing
 
